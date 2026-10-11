@@ -28,6 +28,8 @@
 - [Technical Stack](#technical-stack)
 - [AI/ML Model & Framework Details](#aiml-model--framework-details)
 - [Demo Video](#demo-video)
+- [Architecture Diagram](#architecture-diagram)
+- [Presentation](#presentation)
 - [System Architecture](#system-architecture)
 - [Getting Started](#getting-started)
 - [API Reference](#api-reference)
@@ -227,6 +229,22 @@ The demo covers:
 
 ---
 
+## Architecture Diagram
+
+📄 **[Architecture Diagram (PDF)](docs/submission/Anukriti_AI_Architecture_Diagram.pdf)** · [PowerPoint version](docs/submission/Anukriti_AI_Architecture_Diagram.pptx)
+
+A three-page reference covering the four-layer system architecture (interface, orchestration, intelligence, computation), the seven-stage data flow from device description to digital twin, and the edge deployment topology on a Raspberry Pi 5.
+
+---
+
+## Presentation
+
+📄 **[Project Presentation (PDF)](docs/submission/Anukriti_AI_Presentation.pdf)** · [PowerPoint version](docs/submission/Anukriti_AI_Presentation.pptx)
+
+A 17-slide deck covering the problem, the solution, a walkthrough of the running application, the healthcare use case, the technology stack, measured outcomes from a reference run, and the limitations and roadmap.
+
+---
+
 ## System Architecture
 
 ```text
@@ -332,7 +350,7 @@ Then follow the manual setup above, building the portal with the Pi's LAN addres
 NEXT_PUBLIC_API_URL=http://<pi-ip-address>:8003 npm run build
 ```
 
-> **Tested configuration:** Raspberry Pi 5 (8 GB), active cooler, Raspberry Pi OS 64-bit (Debian 13), Python 3.13, Node 20.19. Full simulation and surrogate training complete in 1–3 minutes on-device.
+> **Tested configuration:** Raspberry Pi 5 (8 GB), active cooler, Raspberry Pi OS 64-bit (Debian 13), Python 3.13, Node 20.19 — the full stack installs and serves from the device.
 
 ### Environment Variables
 
@@ -407,7 +425,8 @@ Anukriti/
 │   └── Dockerfile                 Frontend container image
 │
 └── docs/
-    └── images/                    Architecture and analysis figures
+    ├── images/                    Architecture and analysis figures
+    └── submission/                Architecture diagram and presentation (PDF + PPTX)
 ```
 
 ---
