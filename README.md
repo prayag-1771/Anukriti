@@ -12,20 +12,9 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Raspberry Pi](https://img.shields.io/badge/Runs_on-Raspberry_Pi_5-c51a4a.svg?style=for-the-badge&logo=raspberrypi&logoColor=white)](https://raspberrypi.com)
 
+**[▶ Watch the Demo Video](https://drive.google.com/file/d/1tmi1IfsEywH-5Cemsh-FVo5eEwZFVepI/view?usp=drivesdk)**
+
 </div>
-
----
-
-> ### ⚠️ Before submitting — complete these four items
->
-> | # | Item | Where |
-> |---|---|---|
-> | 1 | **Verify team names, roles and emails** | [Team Details](#team-details) |
-> | 2 | **Verify college / incubator details** | [College / Incubator Information](#college--incubator-information) |
-> | 3 | **Add the unlisted YouTube demo video link** | [Demo Video](#demo-video) |
-> | 4 | **Upload architecture diagram + presentation as PDF/PPT** | `docs/submission/` |
->
-> *Delete this block once all four are done.*
 
 ---
 
@@ -39,14 +28,11 @@
 - [Technical Stack](#technical-stack)
 - [AI/ML Model & Framework Details](#aiml-model--framework-details)
 - [Demo Video](#demo-video)
-- [Architecture Diagram](#architecture-diagram)
-- [Presentation](#presentation)
 - [System Architecture](#system-architecture)
 - [Getting Started](#getting-started)
 - [API Reference](#api-reference)
 - [Repository Structure](#repository-structure)
 - [Open-Source License](#open-source-license)
-- [Accessibility of Files & Links](#accessibility-of-files--links)
 
 ---
 
@@ -219,9 +205,7 @@ Implemented in `core/training/pipeline.py`.
 
 ## Demo Video
 
-🎬 **[Anukriti AI — Full Demo Walkthrough (Unlisted YouTube)](ADD_YOUR_UNLISTED_YOUTUBE_LINK_HERE)**
-
-> ⚠️ **ACTION REQUIRED:** Replace the placeholder link above with the unlisted YouTube URL for the 15–20 minute demo video. Set visibility to **Unlisted** (not Private), so reviewers can open it without requesting access.
+🎬 **[Anukriti AI — Full Demo Walkthrough](https://drive.google.com/file/d/1tmi1IfsEywH-5Cemsh-FVo5eEwZFVepI/view?usp=drivesdk)**
 
 The demo covers:
 
@@ -232,28 +216,6 @@ The demo covers:
 5. Safety-violation detection against IEC limits
 6. Surrogate ML twin training and the resulting model metrics
 7. What-if stress testing under injected failure conditions
-
----
-
-## Architecture Diagram
-
-📄 **[Architecture Diagram (PDF)](docs/submission/Anukriti_AI_Architecture_Diagram.pdf)**
-
-> ⚠️ **ACTION REQUIRED:** Add the architecture diagram as a PDF or PPT at `docs/submission/Anukriti_AI_Architecture_Diagram.pdf`. A PNG reference version is included below.
-
-<div align="center">
-<img src="./docs/images/system_architecture.png" alt="Anukriti AI System Architecture" width="80%"/>
-</div>
-
----
-
-## Presentation
-
-📄 **[Project Presentation (PDF)](docs/submission/Anukriti_AI_Presentation.pdf)**
-
-> ⚠️ **ACTION REQUIRED:** Add the presentation deck as a PDF or PPT at `docs/submission/Anukriti_AI_Presentation.pdf`, covering project details and outcomes.
-
-Suggested contents: problem statement, proposed solution, system architecture, healthcare use case, technical implementation, results and metrics, market opportunity, social impact and future roadmap. Supporting figures are available in [`docs/images/`](docs/images/).
 
 ---
 
@@ -285,6 +247,10 @@ Suggested contents: problem statement, proposed solution, system architecture, h
                 ▼
      Digital Twin Artefact (.pkl)  +  Interactive 3D Replica
 ```
+
+<div align="center">
+<img src="./docs/images/system_architecture.png" alt="Anukriti AI System Architecture" width="80%"/>
+</div>
 
 <div align="center">
 <img src="./docs/images/proposed_solution.png" alt="Proposed Solution" width="70%"/>
@@ -433,8 +399,7 @@ Anukriti/
 │   └── Dockerfile                 Frontend container image
 │
 └── docs/
-    ├── images/                    Architecture and analysis figures
-    └── submission/                Architecture diagram and presentation (PDF/PPT)
+    └── images/                    Architecture and analysis figures
 ```
 
 ---
@@ -461,23 +426,6 @@ This project is released under the **MIT License**.
 | NumPy, Pandas, scikit-learn, NetworkX | BSD-3-Clause |
 | Three.js | MIT |
 | Tailwind CSS | MIT |
-
----
-
-## Accessibility of Files & Links
-
-| Item | Status |
-|---|---|
-| GitHub repository | ✅ Public — no additional permissions required |
-| Source code (backend and frontend) | ✅ Included in this repository |
-| README with all required sections | ✅ This file |
-| Open-source licence | ✅ [LICENSE](LICENSE) — MIT |
-| Architecture diagram (PNG) | ✅ [`docs/images/system_architecture.png`](docs/images/system_architecture.png) |
-| Architecture diagram (PDF/PPT) | ⚠️ Add to `docs/submission/` |
-| Presentation (PDF/PPT) | ⚠️ Add to `docs/submission/` |
-| Demo video (unlisted YouTube) | ⚠️ Add link above |
-
-> All committed files are publicly accessible without additional permissions. Externally linked material must be shared with public or unlisted visibility.
 
 ---
 
