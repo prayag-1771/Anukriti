@@ -38,12 +38,14 @@
 
 ## Team Details
 
-**Team Name:** Anukriti
+**Team Name:** Team Anukriti Ai
 
-| Name | Role | Email | GitHub |
-|---|---|---|---|
-| Prayag Sharma | Team Lead · Backend, Physics & ML Pipeline | prayagsharma2648@gmail.com | [@prayag-1771](https://github.com/prayag-1771) |
-| Harsh Yadav | Frontend & 3D Visualization | harsh01yadav08@gmail.com | [@Hazz-Y](https://github.com/Hazz-Y) |
+| Name | Role | GitHub |
+|---|---|---|
+| Harsh Yadav | Team Leader | [@Hazz-Y](https://github.com/Hazz-Y) |
+| Avishkar Jaiswal | Team Member | — |
+| Amol Bhatia | Team Member | — |
+| Prayag Sharma | Team Member | [@prayag-1771](https://github.com/prayag-1771) |
 
 ---
 
