@@ -12,7 +12,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Raspberry Pi](https://img.shields.io/badge/Runs_on-Raspberry_Pi_5-c51a4a.svg?style=for-the-badge&logo=raspberrypi&logoColor=white)](https://raspberrypi.com)
 
-**[▶ Watch the Demo Video](https://drive.google.com/file/d/1tmi1IfsEywH-5Cemsh-FVo5eEwZFVepI/view?usp=drivesdk)**
+**[▶ Watch the Demo Video](https://www.youtube.com/watch?v=KSuAD4G1Zug)**
 
 </div>
 
@@ -207,7 +207,13 @@ Implemented in `core/training/pipeline.py`.
 
 ## Demo Video
 
-🎬 **[Anukriti AI — Full Demo Walkthrough](https://drive.google.com/file/d/1tmi1IfsEywH-5Cemsh-FVo5eEwZFVepI/view?usp=drivesdk)**
+🎬 **[Anukriti AI — Full Demo Walkthrough](https://www.youtube.com/watch?v=KSuAD4G1Zug)**
+
+<div align="center">
+
+[![Anukriti AI Demo Video](https://img.youtube.com/vi/KSuAD4G1Zug/0.jpg)](https://www.youtube.com/watch?v=KSuAD4G1Zug)
+
+</div>
 
 The demo covers:
 
